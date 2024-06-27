@@ -9,45 +9,48 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="70dp"
-        android:layout_height="41dp"
-        android:fontFamily="@font/lato_black"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/archivo_black"
         android:text="Map"
         android:textColor="#050650"
         android:textSize="34sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506" />
 
     <TextView
-        android:layout_width="57dp"
-        android:layout_height="41dp"
-        android:fontFamily="@font/lato_black"
+        android:layout_width="75dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/archivo_black"
         android:text="Bus"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.297"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="65dp"
+        android:layout_height="78dp"
         android:layout_marginTop="345dp"
         android:layout_marginEnd="113dp"
         android:layout_marginBottom="344dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
         app:srcCompat="@drawable/bus"
         tools:visibility="visible" />
 
